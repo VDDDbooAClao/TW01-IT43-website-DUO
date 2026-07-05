@@ -9,7 +9,7 @@ body.Home-page-shows{
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: url('../SPIDERMANZBACK.jpg');
+    background-image: url('SPIDERMANZBACK.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
