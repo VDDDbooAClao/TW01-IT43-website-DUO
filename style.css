@@ -129,7 +129,6 @@ header nav a {
 
 
 .HEADcard {
-    padding: 20px;
     margin-left: 6rem;
     margin-top: -50px;
     max-width: 600px;
@@ -230,7 +229,7 @@ header nav a {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: -40px;
 }
 
 .carousel-btn {
@@ -279,12 +278,12 @@ header nav a {
     position: relative;
     margin: 0 auto;
     display: flex;
-    gap: 100px;
+    gap: 70px;
     overflow-x: auto;
     padding: 0;
     scroll-behavior: smooth;
     flex: 1;
-    max-width: calc(470px * 4 + 20px * 3);
+    max-width: calc(470px * 5 + 20px * 2);
     scroll-snap-type: none !important;
 }
 
@@ -305,7 +304,7 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin: 40px;
+    margin: 10px;
 
     
     & img {
@@ -393,58 +392,67 @@ footer {
 
 
 
- /* product */
 
-
-.catalog-heading {
-    font-size: 4.5rem;       
-    margin-bottom: 1.5rem;
-    color: #fff;
-    text-align: center;       
+/* Contact Us + About MyStream section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
 }
 
-.catalog-nav {
-    display: flex;
-    justify-content: center;   
-    gap: 20px;
-    align-items: center;
-    padding: 15px;
-    background: none;          
+.contact-details {
+  max-width: 800px;
+  background-color: #113044;
+  padding: 50px;
+  border-radius: 12px;
+  border: 2px solid #91fcff;
+  color: #fff;
+  text-align: left;
+  font-size: 1.3rem;   /* larger text */
+  line-height: 1.9;    /* more readable spacing */
 }
 
-
-.catalog-nav input,
-.catalog-nav select,
-#searchBtn {
-    padding: 10px 16px;
-    font-size: 1.1rem;
-    border-radius: 20px;     
-    border: none;
-    outline: none;
-    border: 2px solid #91fcff;      
-    background-color: #113044;
-    color: #fff;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+/* Main heading */
+.contact-details h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #91fcff;
+  text-align: center;
 }
 
-#searchBtn {
-    border: none;
-    padding: 10px 16px;
-    border-radius: 6px;
-    cursor: not-allowed;
-    color: #113044;
-    font-size: 20px;         
+/* Subheadings (About + Get in touch) */
+.contact-details h2 {
+  margin: 25px 0 15px 0;
+  color: #91fcff;
+  font-size: 2.4rem;
 }
 
-#searchBtn.enabled {
-    cursor: pointer;
-    background-color: #91fcff;
+/* Paragraphs */
+.contact-details p {
+  margin: 15px 0;
+  font-size: 1.2rem;
 }
 
-.catalog-nav input:hover,
-.catalog-nav select:hover,
-#searchBtn:hover {
-    background-color: #152129; 
-    transform: scale(1.05);    
+/* Lists */
+.contact-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
 }
 
+.contact-details ul li {
+  margin: 12px 0;
+}
+
+/* Hyperlinks */
+.contact-details a {
+  color: #91fcff;
+  font-size: 1.4rem;   /* larger links */
+  text-decoration: none; /* remove underline */
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-details a:hover {
+  color: #00e1ff;
+  transform: scale(1.08);
+}
