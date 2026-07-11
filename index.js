@@ -35,3 +35,12 @@ closeBtn.addEventListener('click', () => {
 trailerBtn.addEventListener('click', () => {
   window.open('https://www.youtube.com/watch?v=-tnxzJ0SSOw', '_blank');
 });
+
+const confirmBtn = modal.querySelector('button'); 
+const purchaseMessage = modal.querySelector('p');
+
+// Confirm purchase
+confirmBtn.addEventListener('click', () => {
+  purchaseMessage.textContent = "✅ Purchase Confirmed!";
+  confirmBtn.style.display = "none"; // hide button after confirmation
+});

@@ -131,7 +131,7 @@ header nav a {
 .HEADcard {
     padding: 20px;
     margin-left: 6rem;
-    margin-top: 10px;
+    margin-top: -50px;
     max-width: 600px;
     font-size: 1.15em;
 }
@@ -305,6 +305,7 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center; 
+    margin: 40px;
 
     
     & img {
@@ -445,37 +446,5 @@ footer {
 #searchBtn:hover {
     background-color: #152129; 
     transform: scale(1.05);    
-}
-
-/* Product Grid */
-
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 240px); 
-    grid-template-rows: repeat(2, 300px);    
-    gap: 24px;                              
-    justify-content: center;
-    margin: 30px auto;
-}
-
-.grid-item {
-    width: 240px;              
-    height: 300px;             
-    overflow: hidden;
-    border-radius: 12px;
-    border: 2px solid #91fcff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-}
-
-.grid-item:hover {
-    transform: scale(1.1);      
-    box-shadow: 0 0 25px #91fcff; 
-    border-color: #00e1ff;
-}
-
-.grid-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;        
 }
 

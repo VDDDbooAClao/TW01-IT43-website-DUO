@@ -5,20 +5,22 @@
   <meta name="description" content="Movie streaming platform with top titles.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Streaming Platform</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style3.css">
   <script src="product.js" defer></script>
 </head>
 <body class="page-content">
   <!-- Gradient Overlay -->
   <div class="gradient-overlay"></div>
   <div class="gradient-overlay-circular"></div>
-  
+
+  <div class="gradient-overlay"></div>
+  <div class="gradient-overlay-circular"></div>
   <!-- Header -->
   <header>
     <div class="logo">MyStream</div>
     <nav class="main-nav">
       <ul>
-        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="Homepage.html" class="nav-link">Home</a></li>
         <li><a href="Products.html" class="nav-link">Products</a></li>
         <li><a href="contact.html" class="nav-link">Contact Us</a></li>
       </ul>
@@ -53,17 +55,53 @@
             </select>
         <button id="searchBtn" disabled>🔍</button>
     </nav>
-<div class="image-grid">
-  <div class="grid-item"><img src="https://i.redd.it/jtl7hjvog36g1.png" alt="Image 1"></div>
-  <div class="grid-item"><img src="https://i.redd.it/sodjomfhhdug1.jpeg" alt="Image 2"></div>
-  <div class="grid-item"><img src="https://preview.redd.it/new-poster-for-rick-and-morty-season-7-trailer-premieres-v0-x9xoipxnvmpb1.jpg?auto=webp&s=7787aedce1aec83a3edda36d9ad0e4d8b46239d9" alt="Image 3"></div>
-  <div class="grid-item"><img src="https://i.redd.it/gkh3k2bty5db1.jpg" alt="Image 4"></div>
-  <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwD9xewAqDibEmMoQPZDmhfdd1kawTjzSZs1_t_bwAsPZWhqb_NcUOCDUh&s=10" alt="Image 5"></div>
-  <div class="grid-item"><img src="https://m.media-amazon.com/images/M/MV5BODU3M2FmMDctNGViYi00OGUxLThkZDAtZmRkZDBhNWJhNDIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Image 6"></div>
-  <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/61/BreakingBadS1DVD.jpg/250px-BreakingBadS1DVD.jpg" alt="Image 7"></div>
-  <div class="grid-item"><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10492751_b_v13_al.jpg" alt="Image 8"></div>
-  <div class="grid-item"><img src="https://m.media-amazon.com/images/M/MV5BYzFiODc5Y2YtMDZlMS00ZTk4LWIzYTEtYzAyMjU2NmQ2MjQ0XkEyXkFqcGc@._V1_.jpg" alt="Image 9"></div>
-  <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi7dkhuOVwPJYGb73SoHxf28h1Gecb5CVA-45YxTyqeSXChltIit1dESU&s=10" alt="Image 10"></div>
-</div>
+<div class="carousel">
+   <button class="carousel-btn prev">&#10094;</button>
+  <div class="carousel-track">
+    <!-- Page 1 -->
+    <div class="grid-page">
+      <div class="grid-item"><img src="https://i.redd.it/jtl7hjvog36g1.png" alt="Image 1"></div>
+      <div class="grid-item"><img src="https://i.redd.it/sodjomfhhdug1.jpeg" alt="Image 2"></div>
+      <div class="grid-item"><img src="https://preview.redd.it/new-poster-for-rick-and-morty-season-7-trailer-premieres-v0-x9xoipxnvmpb1.jpg?auto=webp&s=7787aedce1aec83a3edda36d9ad0e4d8b46239d9" alt="Image 3"></div>
+      <div class="grid-item"><img src="https://i.redd.it/gkh3k2bty5db1.jpg" alt="Image 4"></div>
+      <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwD9xewAqDibEmMoQPZDmhfdd1kawTjzSZs1_t_bwAsPZWhqb_NcUOCDUh&s=10" alt="Image 5"></div>
+      <div class="grid-item"><img src="https://m.media-amazon.com/images/M/MV5BODU3M2FmMDctNGViYi00OGUxLThkZDAtZmRkZDBhNWJhNDIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Image 6"></div>
+      <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/61/BreakingBadS1DVD.jpg/250px-BreakingBadS1DVD.jpg" alt="Image 7"></div>
+      <div class="grid-item"><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10492751_b_v13_al.jpg" alt="Image 8"></div>
+      <div class="grid-item"><img src="https://m.media-amazon.com/images/M/MV5BYzFiODc5Y2YtMDZlMS00ZTk4LWIzYTEtYzAyMjU2NmQ2MjQ0XkEyXkFqcGc@._V1_.jpg" alt="Image 9"></div>
+      <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi7dkhuOVwPJYGb73SoHxf28h1Gecb5CVA-45YxTyqeSXChltIit1dESU&s=10" alt="Image 10"></div>
+    </div>
 
+    <!-- Page 2 -->
+    <div class="grid-page">
+      <!-- All placeholders for now -->
+      <div class="grid-item"><img src="https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_.jpg" alt="Placeholder 11"></div>
+      <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7RKHgjtBK1sCdn3ZgUm4i-iKYwTIJUDhgbqunZTxNOw&s=10" alt="Placeholder 12"></div>
+      <div class="grid-item"><img src="https://cdn.displate.com/artwork/2026-05-17/382ddcc9-2c4c-42d9-851b-9126c16cf372.jpg?speedsize=w_681" alt="Placeholder 13"></div>
+      <div class="grid-item"><img src="https://ph-test-11.slatic.net/p/b15bd675acc44fe798682b22bb04eca0.jpg" alt="Placeholder 14"></div>
+      <div class="grid-item"><img src="https://preview.redd.it/new-secret-level-poster-fonts-removed-upscaled-free-v0-ve6n27bcxo2e1.jpeg?auto=webp&s=8656a9dd912743379d53b7644559eabd72ac408a" alt="Placeholder 15"></div>
+      <div class="grid-item"><img src="https://substackcdn.com/image/fetch/$s_!SjlY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F289ad232-bb03-4b07-848c-d0dad888a4dc_2000x2963.png" alt="Placeholder 16"></div>
+      <div class="grid-item"><img src="https://posterhouse.org/wp-content/uploads/2021/05/moonlight_0.jpg" alt="Placeholder 17"></div>
+      <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-DZSR63SGWnc1O9_4A1H4seTbnO7k0f32Mga_e_F3P_uQP1_3nzHH4TK&s=10" alt="Placeholder 18"></div>
+      <div class="grid-item"><img src="https://www.grindstore.com/cdn/shop/files/171139-front.jpg?v=1730212403&width=533" alt="Placeholder 19"></div>
+      <div class="grid-item"><img src="https://cdn11.bigcommerce.com/s-nq6l4syi/images/stencil/1280x1280/products/160580/847672/210675-1024__03436.1687492035.jpg?c=2" alt="Placeholder 20"></div>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="grid-page">
+      <!-- All placeholders for now -->
+      <div class="grid-item"><img src="https://s.turbifycdn.com/aah/htmarket/now-showing-movie-poster-frame-40.jpg" alt="Placeholder 11"></div>
+      <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4XgTqSz877Sjrh0w54AoVMY3bScoxcF8o-8RY_5ErZ_wJb6JAKJJfHX0&s=10" alt="Placeholder 12"></div>
+      <div class="grid-item"><img src="https://images.squarespace-cdn.com/content/v1/5acd17597c93273e08da4786/1547847934765-ZOU5KGSHYT6UVL6O5E5J/Shrek+Poster.png" alt="Placeholder 13"></div>
+      <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/en/b/be/Mamma_Mia%21_Here_We_Go_Again.png" alt="Placeholder 14"></div>
+      <div class="grid-item"><img src="https://m.media-amazon.com/images/M/MV5BMTgwMTk0NTk4OF5BMl5BanBnXkFtZTgwMjM2MDA2MDE@._V1_.jpg" alt="Placeholder 15"></div>
+      <div class="grid-item"><img src="https://upload.wikimedia.org/wikipedia/en/c/ce/VirginSuicidesPoster.jpg" alt="Placeholder 16"></div>
+      <div class="grid-item"><img src="https://i.pinimg.com/736x/9f/bf/55/9fbf55727c2aed93d43de6d925a0df61.jpg" alt="Placeholder 17"></div>
+      <div class="grid-item"><img src="https://www.tallengestore.com/cdn/shop/products/HauntingOfHillHouse-NetflixHorrorTVShowPoster_f984955c-c3c8-44b2-bb5a-1fb789c756cc.jpg?v=1625220892" alt="Placeholder 18"></div>
+      <div class="grid-item"><img src="https://i.pinimg.com/736x/50/9a/16/509a1612df999220872ceae91c677639.jpg" alt="Placeholder 19"></div>
+      <div class="grid-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiUN0b_mSeZf8Xungqam2T9AVKe-HuU66p2JWQX4fOwWfbMZcD9bTta84&s=10" alt="Placeholder 20"></div>
+    </div>
+  </div>
+   <button class="carousel-btn next">&#10095;</button>
+</div>
 

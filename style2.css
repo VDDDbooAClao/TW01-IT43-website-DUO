@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+
+  /* Background setup */
+  background-color: #111; /* fallback */
+  background-image: 
+    radial-gradient(ellipse at left center,
+      rgba(0, 180, 160, 0.15),   /* darker cyan glow, faint */
+      rgba(0, 180, 160, 0) 70%), /* fade inward to transparent */
+    radial-gradient(ellipse at right center,
+      rgba(0, 180, 160, 0.15),
+      rgba(0, 180, 160, 0) 70%),
+    url('Login.jpg');            /* your background image */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.logo {
+  width: 900px;     
+  height: 200px;    
+  overflow: hidden;  
+  margin: 0 auto;
+  
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   
+  object-position: center; 
+  display: block;
+}
+
+h2 {
+  font-size: 1.4rem;          /* smaller than default */
+  font-weight: normal;        /* removes bold */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #e0e0e0;             /* softer text color */
+  margin-bottom: 1rem;
+  text-align: center;         /* keeps it centered */
+}
+
+
+
+
+.about {
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+
+.buttonlist {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.buttonlist .button {
+  background-color: #2f9195;
+  color: #ffffff;
+  border: 4px solid #226669;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttonlist .button:hover {
+  box-shadow: 0 0 15px #00ffff; 
+  transform: scale(1.05);      
+  background-color: #267c80;
+}
+
+.buttonlist .button2 {
+  background-color: #f3f3f3;
+  color: #00c6cc;
+  border: 4px solid #aeaeae;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttonlist .button2:hover {
+  box-shadow: 0 0 15px #00ffff; 
+  transform: scale(1.05);      
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #7c7c7c;
+
+  background-color: #152129;   
+  color: #ffffff;              
+
+}
+
+.login-box {
+  background: #222;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+  width: 400px;
+  text-align: center;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.login-box input::placeholder {
+  color: #888; 
+}
